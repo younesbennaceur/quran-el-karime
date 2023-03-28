@@ -10,7 +10,7 @@ const getQuran = async () => {
 
 async function getAyatByNumber(number1) {
   const res2 = await fetch(
-    `http://api.alquran.cloud/v1/ayah/${number1}/en.asad`
+    `https://api.alquran.cloud/v1/ayah/${number1}/en.asad`
   );
   const response2 = await res2.json();
   return [
